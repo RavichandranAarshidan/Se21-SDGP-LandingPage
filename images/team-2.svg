@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="t2Title">
+  <title id="t2Title">Team Member 2 Photo Placeholder</title>
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5F5"/>
+      <stop offset="100%" stop-color="#FED7D7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bg2)" stroke="#E53E3E" stroke-width="4"/>
+  <!-- Head & Torso -->
+  <circle cx="100" cy="80" r="36" fill="#2C3E50"/>
+  <!-- Hair style -->
+  <path d="M60 80 Q100 40 140 80 Q145 110 135 125 Q130 90 100 90 Q70 90 65 125 Z" fill="#1F3A5F"/>
+  <path d="M46 168 C46 130 68 124 100 124 C132 124 154 130 154 168 Z" fill="#2C3E50"/>
+  <!-- Accent necklace or collar -->
+  <path d="M88 135 Q100 146 112 135" stroke="#FF7A00" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

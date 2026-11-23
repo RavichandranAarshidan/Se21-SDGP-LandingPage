@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="t3Title">
+  <title id="t3Title">Team Member 3 Photo Placeholder</title>
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FFF4"/>
+      <stop offset="100%" stop-color="#C6F6D5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bg3)" stroke="#38A169" stroke-width="4"/>
+  <circle cx="100" cy="76" r="36" fill="#1A365D"/>
+  <path d="M42 168 C42 126 66 120 100 120 C134 120 158 126 158 168 Z" fill="#1A365D"/>
+  <!-- Headphones / Tech accent -->
+  <path d="M64 74 A 36 36 0 0 1 136 74" stroke="#FF7A00" stroke-width="4" fill="none"/>
+  <rect x="58" y="70" width="8" height="18" rx="4" fill="#FF7A00"/>
+  <rect x="134" y="70" width="8" height="18" rx="4" fill="#FF7A00"/>
+</svg>

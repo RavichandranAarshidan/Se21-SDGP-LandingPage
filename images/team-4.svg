@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="t4Title">
+  <title id="t4Title">Team Member 4 Photo Placeholder</title>
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5FF"/>
+      <stop offset="100%" stop-color="#E9D8FD"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bg4)" stroke="#805AD5" stroke-width="4"/>
+  <circle cx="100" cy="78" r="35" fill="#2D3748"/>
+  <path d="M66 65 Q100 44 134 65 Q140 100 134 115 C130 95 120 90 100 90 C80 90 70 95 66 115 Z" fill="#1F3A5F"/>
+  <path d="M44 168 C44 128 66 122 100 122 C134 122 156 128 156 168 Z" fill="#2D3748"/>
+  <polygon points="100,126 108,138 92,138" fill="#FF7A00"/>
+</svg>

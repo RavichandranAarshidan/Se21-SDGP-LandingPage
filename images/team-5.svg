@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="t5Title">
+  <title id="t5Title">Team Member 5 Photo Placeholder</title>
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFAF0"/>
+      <stop offset="100%" stop-color="#FEEBC8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bg5)" stroke="#DD6B20" stroke-width="4"/>
+  <circle cx="100" cy="78" r="37" fill="#1A202C"/>
+  <path d="M42 168 C42 128 66 122 100 122 C134 122 158 128 158 168 Z" fill="#1F3A5F"/>
+  <!-- Pen / Badge detail -->
+  <rect x="76" y="145" width="6" height="14" rx="2" fill="#FF7A00"/>
+</svg>

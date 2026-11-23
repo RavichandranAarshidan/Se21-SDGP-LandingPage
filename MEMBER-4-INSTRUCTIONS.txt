@@ -1,0 +1,28 @@
+MEMBER 4 - Gallery & Team
+==============================
+
+YOUR FILES (all inside this folder):
+  - css/gallery-team.css
+  - images/screenshot-1-breakdown.svg
+  - images/screenshot-2-mechanics.svg
+  - images/screenshot-3-tracking.svg
+  - images/screenshot-4-completion.svg
+  - images/team-1.svg
+  - images/team-2.svg
+  - images/team-3.svg
+  - images/team-4.svg
+  - images/team-5.svg
+  - html-parts/member4-sections.html
+
+WHAT TO DO:
+1. Make a free GitHub account (github.com) if you do not have one.
+2. Wait for Member 1 to invite you. Accept the email invite, then open the repo link Member 1 sends you.
+3. Click: Add file > Upload files
+4. Drag your folders/files from here (css, js, images, html-parts).
+5. Message box, type exactly:
+   Add screenshots and team sections
+6. Click: Commit changes.
+
+IMPORTANT: Upload ONLY your own files. Do not upload other members' files.
+
+BE READY TO EXPLAIN your part to the lecturer. Ask Claude if you do not understand your code.

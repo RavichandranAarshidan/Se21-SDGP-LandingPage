@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 620" width="100%" height="auto" role="img" aria-labelledby="screen2Title screen2Desc">
+  <title id="screen2Title">Prototype Screen 2: Choose Verified Mechanics Nearby</title>
+  <desc id="screen2Desc">List of verified Sri Lankan mobile mechanics ranked by proximity, customer rating, and required parts stock.</desc>
+  <defs>
+    <filter id="fShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1F3A5F" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="10" y="10" width="300" height="600" rx="36" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="4" filter="url(#fShadow2)"/>
+  
+  <!-- Notch -->
+  <rect x="110" y="20" width="100" height="18" rx="9" fill="#1A202C"/>
+  <text x="35" y="34" font-family="'Poppins', sans-serif" font-size="10" font-weight="600" fill="#2D3748">09:42</text>
+  <circle cx="280" cy="31" r="3" fill="#48BB78"/>
+
+  <!-- Header -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="28" height="28" rx="8" fill="#EDF2F7"/>
+    <path d="M16 9 L11 14 L16 19" stroke="#1F3A5F" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="38" y="19" font-family="'Poppins', sans-serif" font-size="14" font-weight="700" fill="#1F3A5F">Verified Mechanics</text>
+    <text x="245" y="18" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#FF7A00">Step 2/4</text>
+  </g>
+
+  <!-- Step Bar -->
+  <g transform="translate(25, 95)">
+    <rect x="0" y="0" width="60" height="4" rx="2" fill="#FF7A00"/>
+    <rect x="68" y="0" width="60" height="4" rx="2" fill="#FF7A00"/>
+    <rect x="136" y="0" width="60" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="204" y="0" width="66" height="4" rx="2" fill="#CBD5E0"/>
+  </g>
+
+  <!-- Smart Matching Tagline -->
+  <g transform="translate(25, 115)">
+    <rect x="0" y="0" width="270" height="32" rx="8" fill="#EBF8FF"/>
+    <circle cx="16" cy="16" r="6" fill="#3182CE"/>
+    <path d="M14 16 L16 18 L19 14" stroke="#FFF" stroke-width="1.2" fill="none"/>
+    <text x="28" y="20" font-family="'Poppins', sans-serif" font-size="10" font-weight="600" fill="#2B6CB0">Ranked by Distance, Rating &amp; Skill</text>
+  </g>
+
+  <!-- Mechanic Card 1 (Top Pick) -->
+  <g transform="translate(25, 160)">
+    <rect x="0" y="0" width="270" height="125" rx="14" fill="#FFFFFF" stroke="#FF7A00" stroke-width="1.5"/>
+    <!-- Top badge -->
+    <rect x="12" y="10" width="84" height="20" rx="5" fill="#FFEDD5"/>
+    <text x="54" y="24" font-family="'Poppins', sans-serif" font-size="9" font-weight="700" fill="#C05621" text-anchor="middle">★ TOP MATCH</text>
+
+    <!-- Avatar -->
+    <circle cx="36" cy="58" r="20" fill="#1F3A5F"/>
+    <text x="36" y="63" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">DK</text>
+    <circle cx="48" cy="68" r="6" fill="#38A169"/>
+    <path d="M46 68 L48 70 L51 66" stroke="#FFF" stroke-width="1" fill="none"/>
+
+    <text x="68" y="52" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#1F3A5F">Dinesh Kumara</text>
+    <text x="68" y="68" font-family="'Poppins', sans-serif" font-size="10" font-weight="500" fill="#718096">4.9 ★ (184 fixes) • 0.8 km</text>
+
+    <!-- Part Badge -->
+    <rect x="12" y="90" width="155" height="24" rx="6" fill="#F0FFF4"/>
+    <text x="20" y="106" font-family="'Poppins', sans-serif" font-size="9.5" font-weight="600" fill="#22543D">✓ Required Battery In Stock</text>
+
+    <!-- Request Button -->
+    <rect x="175" y="87" width="85" height="28" rx="8" fill="#FF7A00"/>
+    <text x="217" y="105" font-family="'Poppins', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Select</text>
+  </g>
+
+  <!-- Mechanic Card 2 -->
+  <g transform="translate(25, 298)">
+    <rect x="0" y="0" width="270" height="120" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
+    
+    <circle cx="36" cy="42" r="20" fill="#2D3748"/>
+    <text x="36" y="47" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">SP</text>
+    <circle cx="48" cy="52" r="6" fill="#38A169"/>
+    <path d="M46 52 L48 54 L51 50" stroke="#FFF" stroke-width="1" fill="none"/>
+
+    <text x="68" y="38" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#1F3A5F">Sunil Perera</text>
+    <text x="68" y="54" font-family="'Poppins', sans-serif" font-size="10" font-weight="500" fill="#718096">4.8 ★ (112 fixes) • 1.5 km</text>
+
+    <rect x="12" y="78" width="155" height="24" rx="6" fill="#F0FFF4"/>
+    <text x="20" y="94" font-family="'Poppins', sans-serif" font-size="9.5" font-weight="600" fill="#22543D">✓ Required Battery In Stock</text>
+
+    <rect x="175" y="76" width="85" height="28" rx="8" fill="#1F3A5F"/>
+    <text x="217" y="94" font-family="'Poppins', sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Select</text>
+  </g>
+
+  <!-- Mechanic Card 3 -->
+  <g transform="translate(25, 430)">
+    <rect x="0" y="0" width="270" height="110" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
+    
+    <circle cx="36" cy="38" r="20" fill="#4A5568"/>
+    <text x="36" y="43" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">RF</text>
+    
+    <text x="68" y="34" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#1F3A5F">Rohan Fernando</text>
+    <text x="68" y="50" font-family="'Poppins', sans-serif" font-size="10" font-weight="500" fill="#718096">4.7 ★ (89 fixes) • 2.4 km</text>
+
+    <rect x="12" y="70" width="155" height="24" rx="6" fill="#EDF2F7"/>
+    <text x="20" y="86" font-family="'Poppins', sans-serif" font-size="9.5" font-weight="500" fill="#4A5568">Can source battery</text>
+
+    <rect x="175" y="68" width="85" height="28" rx="8" fill="#1F3A5F"/>
+    <text x="217" y="86" font-family="'Poppins', sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Select</text>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="120" y="594" width="80" height="4" rx="2" fill="#CBD5E0"/>
+</svg>
