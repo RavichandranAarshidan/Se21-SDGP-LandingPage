@@ -1,0 +1,150 @@
+<!-- Member 2 HTML sections (copied from index.html) -->
+  <!-- ===== MEMBER 2 START: Splash screen ===== -->
+  <!-- =========================================================================
+       APP SPLASH SCREEN / PRELOADER
+       Smooth branded intro screen displaying the FixMyRide app logo on startup.
+       ========================================================================= -->
+  <div class="splash-screen" id="splash-screen" role="status" aria-live="polite" aria-busy="true">
+    <div class="splash-content">
+      <div class="splash-logo-wrapper">
+        <img src="images/app-logo.jpeg" alt="FixMyRide App Logo" class="splash-logo" width="96" height="96">
+        <div class="splash-pulse" aria-hidden="true"></div>
+      </div>
+      <h2 class="splash-title">FixMyRide</h2>
+      <p class="splash-tagline">Sri Lanka's Roadside Assistance Network</p>
+      <div class="splash-loader" aria-hidden="true">
+        <div class="splash-loader-bar"></div>
+      </div>
+    </div>
+  </div>
+  <!-- ===== MEMBER 2 END ===== -->
+
+  <!-- ===== MEMBER 2 START: Hero & Problem sections ===== -->
+    <!-- =====================================================================
+         2. HERO SECTION
+         Headline, short sub-headline, CTA waitlist button, and phone mockup.
+         ===================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span class="badge-text">Sri Lanka's Roadside Assistance Network</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Broken down? Find a trusted mechanic near you, fast.
+          </h1>
+
+          <p class="hero-subheadline">
+            FixMyRide connects drivers with verified mechanics nearby, so help arrives sooner and you stay safe while you wait.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#join" class="btn btn-primary">Join the waitlist</a>
+            <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+          </div>
+
+          <!-- Quick trust indicators -->
+          <ul class="hero-trust-list">
+            <li class="trust-item">
+              <svg class="trust-check" viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" fill="#EBF8FF"/>
+                <path d="M6 10 L9 13 L14 7" stroke="#1F3A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>100% Verified Mechanics</span>
+            </li>
+            <li class="trust-item">
+              <svg class="trust-check" viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" fill="#EBF8FF"/>
+                <path d="M6 10 L9 13 L14 7" stroke="#1F3A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>One app for drivers &amp; mechanics</span>
+            </li>
+            <li class="trust-item">
+              <svg class="trust-check" viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" fill="#FFF5EC"/>
+                <path d="M6 10 L9 13 L14 7" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Emergency 119/1990 Ready</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hero Phone Mockup Column -->
+        <div class="hero-visual">
+          <div class="phone-mockup-wrapper">
+            <img src="images/hero-mockup.svg" 
+                 alt="Phone mockup illustrating FixMyRide mobile app showing verified mechanic en route on a live map in Sri Lanka" 
+                 class="hero-mockup-img" 
+                 width="460" 
+                 height="840" 
+                 loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. THE PROBLEM SECTION
+         Three short cards highlighting real roadside struggles in Sri Lanka.
+         ===================================================================== -->
+    <section class="problem-section section-padding bg-light" id="problem">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-tag">Current Roadside Reality</p>
+          <h2 class="section-title">The roadside struggle drivers face</h2>
+          <p class="section-subtitle">Vehicle breakdowns in Sri Lanka shouldn't mean endless phone calls, uncertain waits, or feeling stranded.</p>
+        </div>
+
+        <div class="cards-grid problem-grid">
+          <!-- Problem Card 1 -->
+          <article class="card problem-card">
+            <div class="card-icon-box problem-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <line x1="11" y1="8" x2="11" y2="12"/>
+                <line x1="11" y1="15" x2="11.01" y2="15"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Hard to find help</h3>
+            <p class="card-text">
+              When a tyre goes flat or the engine stalls on an unfamiliar road, searching directories or asking passersby takes time you simply do not have.
+            </p>
+          </article>
+
+          <!-- Problem Card 2 -->
+          <article class="card problem-card">
+            <div class="card-icon-box problem-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#DD6B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                <circle cx="12" cy="13" r="1"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Not sure the mechanic has the part</h3>
+            <p class="card-text">
+              A mechanic might arrive after an hour only to realise they do not have the right alternator belt, battery size, or hose for your specific vehicle.
+            </p>
+          </article>
+
+          <!-- Problem Card 3 -->
+          <article class="card problem-card">
+            <div class="card-icon-box problem-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <line x1="12" y1="8" x2="12" y2="12"/>
+                <line x1="12" y1="16" x2="12.01" y2="16"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Safety worries when waiting alone</h3>
+            <p class="card-text">
+              Waiting on an isolated stretch at night with loved ones or alone causes severe anxiety when no one knows where you are or who is coming to help.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  <!-- ===== MEMBER 2 END ===== -->

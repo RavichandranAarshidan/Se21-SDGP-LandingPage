@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 840" width="100%" height="auto" role="img" aria-labelledby="heroMockupTitle heroMockupDesc">
+  <title id="heroMockupTitle">FixMyRide Mobile App Live Interface Mockup</title>
+  <desc id="heroMockupDesc">Smartphone screen showcasing FixMyRide live mechanic tracking, verified mechanic status, parts confirmation, and safety sharing in Sri Lanka.</desc>
+  <defs>
+    <!-- Drop Shadow for Phone -->
+    <filter id="phoneShadow" x="-15%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#0E1E33" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0E1E33" flood-opacity="0.15"/>
+    </filter>
+    
+    <!-- Card Shadow -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1F3A5F" flood-opacity="0.12"/>
+    </filter>
+
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#1A202C"/>
+    </linearGradient>
+
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F3A5F"/>
+      <stop offset="100%" stop-color="#2A4D7E"/>
+    </linearGradient>
+
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9433"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Phone Shell -->
+  <g filter="url(#phoneShadow)">
+    <!-- Outer Rim -->
+    <rect x="25" y="20" width="410" height="800" rx="48" fill="url(#bodyGrad)" stroke="#4A5568" stroke-width="4"/>
+    <!-- Inner Bezel -->
+    <rect x="33" y="28" width="394" height="784" rx="42" fill="#0A0E17"/>
+    <!-- Glass Display -->
+    <rect x="38" y="33" width="384" height="774" rx="38" fill="url(#screenGrad)"/>
+  </g>
+
+  <!-- Speaker & Dynamic Island -->
+  <rect x="160" y="44" width="140" height="26" rx="13" fill="#0A0E17"/>
+  <circle cx="280" cy="57" r="4.5" fill="#1A202C"/>
+  <rect x="185" y="55" width="40" height="4" rx="2" fill="#2D3748"/>
+
+  <!-- Clip Path for Screen Content -->
+  <clipPath id="screenClip">
+    <rect x="38" y="33" width="384" height="774" rx="38"/>
+  </clipPath>
+
+  <g clip-path="url(#screenClip)">
+    <!-- Status Bar -->
+    <text x="68" y="63" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" fill="#1F3A5F">09:41</text>
+    <g transform="translate(356, 52)">
+      <!-- Battery Icon -->
+      <rect x="0" y="2" width="22" height="11" rx="2.5" fill="none" stroke="#1F3A5F" stroke-width="1.5"/>
+      <rect x="2" y="4" width="15" height="7" rx="1.5" fill="#1F3A5F"/>
+      <rect x="23" y="5.5" width="1.5" height="4" rx="0.5" fill="#1F3A5F"/>
+    </g>
+    <!-- Wi-Fi & Signal -->
+    <path d="M344 63 L344 55 M340 63 L340 57 M336 63 L336 59 M332 63 L332 61" stroke="#1F3A5F" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- App Header -->
+    <rect x="38" y="78" width="384" height="64" fill="#FFFFFF"/>
+    <g transform="translate(56, 92)">
+      <circle cx="16" cy="18" r="16" fill="#1F3A5F"/>
+      <!-- Wrench Icon -->
+      <path d="M12 24 L20 16 M18 14 L22 18 L20 20 L16 16 Z" stroke="#FF7A00" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <text x="40" y="16" font-family="'Poppins', sans-serif" font-size="15" font-weight="700" fill="#1F3A5F">FixMyRide</text>
+      <text x="40" y="28" font-family="'Poppins', sans-serif" font-size="10" font-weight="500" fill="#718096">Colombo 03 • Kollupitiya</text>
+    </g>
+    <!-- Emergency Pill -->
+    <rect x="320" y="93" width="86" height="30" rx="15" fill="#FFF5F5" stroke="#E53E3E" stroke-width="1.2"/>
+    <circle cx="334" cy="108" r="4" fill="#E53E3E"/>
+    <text x="344" y="112" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#E53E3E">119 / 1990</text>
+
+    <!-- Map Canvas (Simulated Vector Map) -->
+    <g transform="translate(38, 142)">
+      <!-- Map base -->
+      <rect x="0" y="0" width="384" height="380" fill="#EBF2F7"/>
+      <!-- Roads -->
+      <path d="M0 80 Q140 100 220 70 T384 110" fill="none" stroke="#FFFFFF" stroke-width="24"/>
+      <path d="M80 0 Q100 160 120 380" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+      <path d="M260 0 Q240 180 290 380" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+      <path d="M0 240 Q180 220 384 270" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+      <!-- Route line (Orange dashed) -->
+      <path d="M110 95 Q170 110 210 180 T265 245" fill="none" stroke="#FF7A00" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 6"/>
+      
+      <!-- User Breakdown Pin -->
+      <g transform="translate(110, 95)">
+        <circle cx="0" cy="0" r="18" fill="#FF7A00" fill-opacity="0.2"/>
+        <circle cx="0" cy="0" r="9" fill="#FF7A00"/>
+        <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+        <rect x="-35" y="-34" width="70" height="20" rx="6" fill="#1F3A5F"/>
+        <text x="0" y="-21" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#FFFFFF" text-anchor="middle">Your Car</text>
+      </g>
+
+      <!-- Mechanic En Route Pin -->
+      <g transform="translate(265, 245)">
+        <circle cx="0" cy="0" r="22" fill="#1F3A5F" fill-opacity="0.15"/>
+        <circle cx="0" cy="0" r="14" fill="#1F3A5F"/>
+        <!-- Van / Wrench Icon -->
+        <path d="M-6 0 L6 0 M-3 -4 L3 -4 M0 -6 L0 6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-42" y="16" width="84" height="20" rx="6" fill="#1F3A5F"/>
+        <text x="0" y="29" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#FF7A00" text-anchor="middle">5 mins away</text>
+      </g>
+    </g>
+
+    <!-- Floating Live Tracking Card -->
+    <g transform="translate(52, 490)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="356" height="195" rx="18" fill="#FFFFFF"/>
+      
+      <!-- Top banner in card: Live Status -->
+      <rect x="0" y="0" width="356" height="34" rx="18" fill="#1F3A5F"/>
+      <rect x="0" y="20" width="356" height="14" fill="#1F3A5F"/>
+      <circle cx="20" cy="17" r="4" fill="#48BB78"/>
+      <text x="32" y="21" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">MECHANIC EN ROUTE • LIVE GPS</text>
+      <text x="336" y="21" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#FF9433" text-anchor="end">ETA 5 MIN</text>
+
+      <!-- Mechanic Details -->
+      <g transform="translate(18, 48)">
+        <!-- Avatar -->
+        <circle cx="24" cy="24" r="22" fill="#EDF2F7"/>
+        <circle cx="24" cy="19" r="8" fill="#718096"/>
+        <path d="M12 36 C12 30 18 28 24 28 C30 28 36 30 36 36 Z" fill="#718096"/>
+        <circle cx="36" cy="36" r="6" fill="#3182CE"/>
+        <path d="M34 36 L36 38 L39 34" stroke="#FFF" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+        <text x="56" y="18" font-family="'Poppins', sans-serif" font-size="14" font-weight="700" fill="#1F3A5F">Dinesh Kumara</text>
+        <text x="56" y="32" font-family="'Poppins', sans-serif" font-size="11" font-weight="500" fill="#718096">Verified Mobile Mechanic • ★ 4.9</text>
+      </g>
+
+      <!-- Badges / Highlights -->
+      <g transform="translate(18, 108)">
+        <!-- Part Matched Badge -->
+        <rect x="0" y="0" width="154" height="26" rx="6" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1"/>
+        <path d="M10 13 L13 16 L18 10" stroke="#38A169" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        <text x="24" y="16" font-family="'Poppins', sans-serif" font-size="9.5" font-weight="600" fill="#22543D">Has Fan Belt In Stock</text>
+
+        <!-- Safety Share Badge -->
+        <rect x="162" y="0" width="156" height="26" rx="6" fill="#EBF8FF" stroke="#BEE3F8" stroke-width="1"/>
+        <path d="M172 13 C172 10 175 9 178 9 C181 9 184 10 184 13 C184 16 178 18 178 18 C178 18 172 16 172 13 Z" fill="#3182CE"/>
+        <text x="188" y="16" font-family="'Poppins', sans-serif" font-size="9.5" font-weight="600" fill="#2B6CB0">Shared with Contact</text>
+      </g>
+
+      <!-- Action Button inside Card -->
+      <g transform="translate(18, 144)">
+        <rect x="0" y="0" width="320" height="38" rx="10" fill="url(#orangeGrad)"/>
+        <text x="160" y="24" font-family="'Poppins', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Share Live Status With Family</text>
+      </g>
+    </g>
+
+    <!-- Bottom App Navigation Bar -->
+    <g transform="translate(38, 720)">
+      <rect x="0" y="0" width="384" height="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <!-- Home tab active -->
+      <g transform="translate(50, 14)">
+        <circle cx="16" cy="12" r="3" fill="#FF7A00"/>
+        <path d="M8 20 L16 10 L24 20 Z" fill="none" stroke="#FF7A00" stroke-width="2"/>
+        <text x="16" y="32" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#FF7A00" text-anchor="middle">Home</text>
+      </g>
+      <!-- Track tab -->
+      <g transform="translate(140, 14)">
+        <circle cx="16" cy="14" r="8" fill="none" stroke="#718096" stroke-width="2"/>
+        <circle cx="16" cy="14" r="2" fill="#718096"/>
+        <text x="16" y="32" font-family="'Poppins', sans-serif" font-size="9" font-weight="500" fill="#718096" text-anchor="middle">Live Track</text>
+      </g>
+      <!-- Safety tab -->
+      <g transform="translate(230, 14)">
+        <path d="M16 6 L24 10 L24 18 C24 22 16 26 16 26 C16 26 8 22 8 18 L8 10 Z" fill="none" stroke="#718096" stroke-width="2"/>
+        <text x="16" y="32" font-family="'Poppins', sans-serif" font-size="9" font-weight="500" fill="#718096" text-anchor="middle">Safety</text>
+      </g>
+      <!-- Profile tab -->
+      <g transform="translate(320, 14)">
+        <circle cx="16" cy="11" r="5" fill="none" stroke="#718096" stroke-width="2"/>
+        <path d="M8 24 C8 20 12 18 16 18 C20 18 24 20 24 24" fill="none" stroke="#718096" stroke-width="2"/>
+        <text x="16" y="32" font-family="'Poppins', sans-serif" font-size="9" font-weight="500" fill="#718096" text-anchor="middle">Profile</text>
+      </g>
+    </g>
+
+    <!-- Bottom Home Indicator Bar -->
+    <rect x="160" y="792" width="140" height="4" rx="2" fill="#CBD5E0"/>
+  </g>
+</svg>
