@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F3A5F"/>
+      <stop offset="100%" stop-color="#0E1E33"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9433"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#favGrad)"/>
+  <!-- Accent shield / ring -->
+  <circle cx="32" cy="32" r="22" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-dasharray="88 20" stroke-linecap="round"/>
+  <!-- Stylized Car & Wrench -->
+  <g transform="translate(14, 15)">
+    <!-- Wrench (diagonal) -->
+    <path d="M7 29 L23 13 M20 10 L26 16 L23 19 L17 13 Z M23 7 C21.5 5.5 19 5.5 17.5 7 C16 8.5 16 11 17.5 12.5 L20 10 Z" 
+          stroke="#FF7A00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Car body -->
+    <path d="M5 22 C5 19 7 17 10 17 L26 17 C29 17 31 19 31 22 L33 26 C33.5 27 33 28 32 28 L4 28 C3 28 2.5 27 3 26 Z" 
+          fill="#FFFFFF"/>
+    <!-- Wheels -->
+    <circle cx="10" cy="28" r="3" fill="#FF7A00"/>
+    <circle cx="26" cy="28" r="3" fill="#FF7A00"/>
+  </g>
+</svg>

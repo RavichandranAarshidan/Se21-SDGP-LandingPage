@@ -1,0 +1,22 @@
+MEMBER 5 - Form & Footer
+==============================
+
+YOUR FILES (all inside this folder):
+  - css/form-footer.css
+  - js/form.js
+  - images/favicon.svg
+  - images/og-preview.svg
+  - html-parts/member5-sections.html
+
+WHAT TO DO:
+1. Make a free GitHub account (github.com) if you do not have one.
+2. Wait for Member 1 to invite you. Accept the email invite, then open the repo link Member 1 sends you.
+3. Click: Add file > Upload files
+4. Drag your folders/files from here (css, js, images, html-parts).
+5. Message box, type exactly:
+   Add waitlist form and footer
+6. Click: Commit changes.
+
+IMPORTANT: Upload ONLY your own files. Do not upload other members' files.
+
+BE READY TO EXPLAIN your part to the lecturer. Ask Claude if you do not understand your code.

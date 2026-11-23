@@ -1,0 +1,210 @@
+<!-- Member 5 HTML sections (copied from index.html) -->
+  <!-- ===== MEMBER 5 START: Waitlist form section ===== -->
+    <!-- =====================================================================
+         8. CALL TO ACTION / WAITLIST FORM SECTION
+         Waitlist form with name, email, role dropdown, JS validation & success msg.
+         ===================================================================== -->
+    <section class="cta-section section-padding" id="join">
+      <div class="container cta-container">
+        <div class="cta-card">
+          <div class="cta-header text-center">
+            <span class="cta-badge">Early Access</span>
+            <h2 class="cta-title">Be first to experience FixMyRide</h2>
+            <p class="cta-subtitle">
+              Join our exclusive waitlist for drivers and mechanics across Sri Lanka. We are rolling out early beta access city by city.
+            </p>
+          </div>
+
+          <!--
+            STUDENT BACKEND INTEGRATION NOTE:
+            This form is currently processed on the client side with JavaScript.
+            To connect a backend service later:
+            1. Formspree: Add action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+            2. Google Forms: Map form fields to entry.XXXXX IDs and submit to formResponse
+            3. Custom API: In js/form.js, replace the simulation with fetch('/api/waitlist', {...})
+          -->
+          <form class="waitlist-form" id="waitlist-form" novalidate>
+            <!-- Name Field -->
+            <div class="form-group">
+              <label for="fullname" class="form-label">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+              <input type="text" 
+                     id="fullname" 
+                     name="fullname" 
+                     class="form-input" 
+                     placeholder="e.g. Kasun Perera" 
+                     required 
+                     aria-required="true"
+                     aria-describedby="name-error">
+              <span class="error-message" id="name-error" role="alert">Please enter your full name.</span>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+              <input type="email" 
+                     id="email" 
+                     name="email" 
+                     class="form-input" 
+                     placeholder="e.g. kasun@example.com" 
+                     required 
+                     aria-required="true"
+                     aria-describedby="email-error">
+              <span class="error-message" id="email-error" role="alert">Please enter a valid email address.</span>
+            </div>
+
+            <!-- User Role Dropdown -->
+            <div class="form-group">
+              <label for="user-role" class="form-label">I am joining as <span class="required-star" aria-hidden="true">*</span></label>
+              <div class="select-wrapper">
+                <select id="user-role" 
+                        name="user-role" 
+                        class="form-select" 
+                        required 
+                        aria-required="true"
+                        aria-describedby="role-error">
+                  <option value="" disabled selected>Please select your role</option>
+                  <option value="driver">I am a driver</option>
+                  <option value="mechanic">I am a mechanic</option>
+                </select>
+              </div>
+              <span class="error-message" id="role-error" role="alert">Please select whether you are a driver or mechanic.</span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-block" id="waitlist-submit-btn">
+              <span class="btn-text">Join the Waitlist</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true">
+                <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </form>
+
+          <!-- Accessible Live Region for Success Message -->
+          <div class="form-success-banner" id="form-success" role="status" aria-live="polite">
+            <div class="success-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#22543D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <div class="success-content">
+              <h3 class="success-title">You're on the waitlist!</h3>
+              <p class="success-message" id="success-message-text">
+                Thank you for signing up. We will notify you as soon as early access opens in your area.
+              </p>
+              <button type="button" class="btn-text-link" id="reset-form-btn">Register another member</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ===== MEMBER 5 END ===== -->
+
+  <!-- ===== MEMBER 5 START: Footer / contact ===== -->
+  <!-- =====================================================================
+       9. CONTACT AND FOOTER SECTION
+       Email, phone, social links, privacy notice, and copyright.
+       ===================================================================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- Brand & Mission Column -->
+        <div class="footer-col footer-brand-col">
+          <a href="#header" class="logo-link logo-footer" aria-label="FixMyRide Homepage">
+            <img src="images/app-logo.jpeg" alt="FixMyRide App Logo" class="brand-logo-img brand-logo-footer" width="40" height="40">
+            <span class="logo-text text-white">FixMyRide</span>
+          </a>
+          <p class="footer-tagline">
+            Sri Lanka's dedicated roadside assistance and verified mechanic matching platform. Driving safety and reliability forward.
+          </p>
+          <div class="emergency-badge">
+            <span class="emergency-label">National Emergencies:</span>
+            <span class="emergency-numbers">Police: <strong>119</strong> &bull; Ambulance: <strong>1990</strong></span>
+          </div>
+        </div>
+
+        <!-- Quick Navigation Links -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links-list">
+            <li><a href="#problem">The Problem</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#features">Key Features</a></li>
+            <li><a href="#screenshots">App Prototype</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#join">Join the Waitlist</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Information Column -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Contact Us</h3>
+          <ul class="footer-contact-list">
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#FF7A00" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <!-- Editable Email Placeholder -->
+              <a href="mailto:support@fixmyride.lk" class="contact-link">support@fixmyride.lk</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#FF7A00" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <!-- Editable Phone Placeholder -->
+              <a href="tel:+94112345678" class="contact-link">+94 11 234 5678</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#FF7A00" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span class="contact-text">Colombo, Sri Lanka</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Social Media Placeholder Column -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Follow FixMyRide</h3>
+          <p class="footer-social-text">Stay updated on our product launches, community drives, and road safety updates.</p>
+          <div class="social-links-wrapper">
+            <!-- Facebook Placeholder -->
+            <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow FixMyRide on Facebook (opens in new tab)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <!-- Instagram Placeholder -->
+            <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow FixMyRide on Instagram (opens in new tab)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <!-- LinkedIn Placeholder -->
+            <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow FixMyRide on LinkedIn (opens in new tab)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Privacy Notice & Copyright Separator -->
+      <div class="footer-bottom">
+        <p class="privacy-notice">
+          <strong>Privacy Notice:</strong> We only use your name and email to contact you about FixMyRide. We do not share your details.
+        </p>
+        <p class="copyright-line">
+          &copy; 2026 FixMyRide Sri Lanka. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- ===== MEMBER 5 END ===== -->
