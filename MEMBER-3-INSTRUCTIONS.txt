@@ -1,0 +1,20 @@
+MEMBER 3 - Features
+==============================
+
+YOUR FILES (all inside this folder):
+  - css/features.css
+  - js/animations.js
+  - html-parts/member3-sections.html
+
+WHAT TO DO:
+1. Make a free GitHub account (github.com) if you do not have one.
+2. Wait for Member 1 to invite you. Accept the email invite, then open the repo link Member 1 sends you.
+3. Click: Add file > Upload files
+4. Drag your folders/files from here (css, js, images, html-parts).
+5. Message box, type exactly:
+   Add how-it-works, features and animations
+6. Click: Commit changes.
+
+IMPORTANT: Upload ONLY your own files. Do not upload other members' files.
+
+BE READY TO EXPLAIN your part to the lecturer. Ask Claude if you do not understand your code.
