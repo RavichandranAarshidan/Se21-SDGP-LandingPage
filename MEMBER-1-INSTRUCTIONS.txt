@@ -1,0 +1,23 @@
+MEMBER 1 - Foundation
+==============================
+
+YOUR FILES (all inside this folder):
+  - index.html
+  - README.md
+  - TEAM-GIT-GUIDE.md
+  - css/base.css
+  - js/nav.js
+  - images/app-logo.jpeg
+
+WHAT TO DO:
+1. Make a free GitHub account (github.com) if you do not have one.
+2. Create a new repository named fixmyride (Public), then invite the other 4 members (Settings > Collaborators).
+3. Click: uploading an existing file
+4. Drag your folders/files from here (css, js, images, index.html, README.md, TEAM-GIT-GUIDE.md).
+5. Message box, type exactly:
+   Add page skeleton, base styles and navigation
+6. Click: Commit changes.
+
+IMPORTANT: Upload ONLY your own files. Do not upload other members' files.
+
+BE READY TO EXPLAIN your part to the lecturer. Ask Claude if you do not understand your code.
